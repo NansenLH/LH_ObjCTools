@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LH_ObjCTools"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "OCTools for work"
   spec.description  = "awesome tools, go go go"
   spec.homepage     = "https://github.com/NansenLH/LH_ObjCTools"
