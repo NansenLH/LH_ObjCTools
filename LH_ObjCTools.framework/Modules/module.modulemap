@@ -1,0 +1,6 @@
+framework module LH_ObjCTools {
+  umbrella header "LH_ObjCTools.h"
+
+  export *
+  module * { export * }
+}
