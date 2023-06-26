@@ -84,8 +84,19 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  # spec.dependency "YYModel"
-  # spec.dependency "Masonry"
+  spec.dependency "YYModel"
+  spec.dependency "YYText"
+  spec.dependency "Masonry"
+  spec.dependency "AFNetworking"
+  spec.dependency "SDWebImage"
+  spec.dependency "SDWebImageWebPCoder"
+  spec.dependency "YYImage"
+  spec.dependency "IQKeyboardManager"
+  spec.dependency "TPKeyboardAvoiding"
+  spec.dependency "MBProgressHUD"
+  spec.dependency "MJRefresh"
+  spec.dependency "AvoidCrash", "2.5.2"
+
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
